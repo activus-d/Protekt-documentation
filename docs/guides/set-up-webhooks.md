@@ -62,6 +62,6 @@ In the `Retry and failure section`, set how Protekt handles failed webhook deliv
 
 After configuring your webhook for retry and failure handling, save and test to ensure everything works as expected:
 
-* Click `Save webhook` to activate your configuration.
-* Click `Send test event` to trigger a sample webhook, then check your application logs to verify it was received.
-* Once saved, your webhook is active and will begin receiving notifications for the authentication events you selected.
+1. Click `Save webhook` to activate your configuration.
+2. Click `Send test event` to trigger a sample webhook, then check your application logs to verify it was received.
+3. Once saved, your webhook is active and will begin receiving notifications for the authentication events you selected.
