@@ -1,0 +1,8 @@
+{
+  "label": "Guides",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Task-oriented how-to guides for Protekt. Find step-by-step instructions for implementing features and handling specific scenarios."
+  }
+}

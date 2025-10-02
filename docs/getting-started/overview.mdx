@@ -1,0 +1,113 @@
+---
+sidebar_label: 'Overview'
+sidebar_position: 1
+---
+
+# Overview
+
+Protekt is a cloud platform for authentication that solves the complexity of secure user authentication for web applications. Developers spend valuable time building login systems, password reset flows, and security features. Protekt eliminates this burden by offering production-ready authentication that integrates into your application in minutes.
+
+The platform provides APIs, SDKs, and libraries that handle user registration, login, session management, and security updates automatically. This means your team can focus on your core product instead of reinventing authentication infrastructure.
+
+## Why Protekt?
+
+Protekt goes beyond basic identity management solutions. It delivers superior security through support for Passkeys, the leading future-proof standard against phishing attacks.
+
+Protekt also provides enterprise-level security and management features out of the box. These features include:
+
+* **Multi-tenancy and organizations:** Manage users within distinct customer groups, which is essential for B2B web applications.
+* **Role-Based Access Control (RBAC):** Define user roles and permissions that your web application can use.
+* **Single Sign-On (SSO):** Support for Security Assertion Markup Language (SAML) and OpenID Connect (OIDC) enables enterprises to authenticate through corporate Identity Providers (IdPs).
+
+You can choose your preferred implementation style. The hosted login page offers the fastest deployment, while the API option lets you build a fully custom interface that matches your brand.
+
+## Authentication methods
+
+Protekt supports the following authentication methods:
+
+* Passkeys
+* Standard email and password flows
+* Magic links
+* SSO through SAML and OIDC.
+* Social logins with providers such as Google, GitHub, and Apple through [OAuth 2.0](https://oauth.net/2/) 
+* Multi-factor authentication (MFA) supports Time-based One-Time Password (TOTP) authenticator apps and push notifications.
+
+## Supported frameworks
+
+Protekt offers dedicated Software Development Kits (SDKs) and helper libraries for major client and server technology stacks. These SDKs help developers easily manage tokens, handle session state, and securely verify user identity.
+
+### Single-page apps
+
+<CardContainer cols={4} gap="sm">
+  <Card shadow='tl' href='/docs/getting-started/Quickstart/Single-page app/react'>
+      <CardHeader>
+        <h3>React</h3>
+      </CardHeader>
+      <CardBody image='/img/react-logo-dark.svg' imageAlt='React logo' />
+  </Card>
+  <Card shadow='tl' href='/docs/getting-started/Quickstart/Single-page app/react'>
+      <CardHeader>
+        <h3>Vue.js</h3>
+      </CardHeader>
+      <CardBody image='/img/vue-logo-dark.svg' imageAlt='Vue.js logo' />
+  </Card>
+  <Card shadow='tl' href='/docs/getting-started/Quickstart/Single-page app/react'>
+    <CardHeader>
+      <h3>Angular</h3>
+    </CardHeader>
+    <CardBody image='/img/angular-logo.png
+    ' imageAlt='Angular logo' href='/docs/getting-started/Quickstart/Single-page app/react'/>
+  </Card>
+  <Card shadow='tl' href='/docs/getting-started/Quickstart/Single-page app/react'>
+    <CardHeader>
+      <h3>JavaScript</h3>
+    </CardHeader>
+    <CardBody image='/img/javascript-logo.svg' imageAlt='javascript logo' />
+  </Card>
+</CardContainer>
+
+### Server-side frameworks
+
+<CardContainer cols={4} gap="md">
+  <Card shadow='tl' href='/docs/getting-started/Quickstart/server-side-frameworks/nodejs'>
+      <CardHeader>
+        <h3>Node.js</h3>
+      </CardHeader>
+      <CardBody image='/img/node-logo.png' imageAlt='Node.js logo' />
+  </Card>
+  <Card shadow='tl' href='/docs/getting-started/Quickstart/server-side-frameworks/django'>
+      <CardHeader>
+        <h3>Django</h3>
+      </CardHeader>
+      <CardBody image='/img/django.svg' imageAlt='Django logo' />
+  </Card>
+  <Card shadow='tl' href='/docs/getting-started/Quickstart/server-side-frameworks/ruby-on-rails'>
+      <CardHeader>
+        <h3>Rails</h3>
+      </CardHeader>
+      <CardBody image='/img/ruby-on-rails-logo.svg' imageAlt='Ruby on Rails logo' />
+  </Card>
+  <Card shadow='tl' href='/docs/getting-started/Quickstart/server-side-frameworks/echo'>
+      <CardHeader>
+        <h3>Echo</h3>
+      </CardHeader>
+      <CardBody image='/img/echo-logo-dark.svg' imageAlt='Echo logo' />
+  </Card>
+</CardContainer>
+
+## Management portal
+
+Protekt provides a web-based [Management portal](../concepts/management-portal%20copy.md). The portal lets you fully control your web application's authentication environment without writing code.
+
+The Management portal has the following features:
+
+* **Multiple application configuration:** Create and configure multiple web applications. Generate and rotate API keys, set custom domains, and define redirect URLs.
+* **User lifecycle control:** View, search, and manage all registered users. Manually edit accounts, reset passwords, and assign roles and permissions.
+* **Security and monitoring:** View real-time analytics and audit logs of all authentication events. Configure rate limiting, IP allow lists, and set up alerts for suspicious activity.
+* **Customization and branding:** Customize the hosted login page for your applications. Edit email templates for welcome, verification, and password reset messages.
+* **Webhook management:** Configure webhook endpoints to receive real-time notifications about authentication events. Set up retry logic and monitor delivery status.
+
+## What's next?
+
+* Check our [Quickstart](/docs/category/quickstart) to quickly integrate Protekt into your project.  
+* Explore our [Guides](/docs/category/guides/) for step-by-step instructions on implementing specific authentication and security features.
