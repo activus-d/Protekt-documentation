@@ -1,6 +1,6 @@
 ---
 sidebar_label: 'Set up webhooks for user events'
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # Set up webhooks for user events
